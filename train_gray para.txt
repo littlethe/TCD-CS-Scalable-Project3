@@ -1,0 +1,4 @@
+ --width 128 --height 64 --length 8 --symbols symbols.txt --batch-size 256 --epochs 10 --output-model image8 --train-dataset training_image --validate-dataset validation_image
+ --width 1000 --height 100 --length 8 --symbols symbols.txt --batch-size 100 --epochs 10 --output-model audio8 --train-dataset training_figure --validate-dataset validation_figure
+ --width 128 --height 64 --length 8 --symbols symbols.txt --batch-size 512 --epochs 20 --output-model image8 --train-dataset training_image --validate-dataset validation_image
+ --width 1000 --height 100 --length 8 --symbols symbols.txt --batch-size 28 --epochs 8 --output-model audio8 --train-dataset training_figure --validate-dataset validation_figure
